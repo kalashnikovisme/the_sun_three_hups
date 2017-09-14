@@ -1,52 +1,31 @@
-/ BEGIN Google Tag Manager BODY tag
-%noscript
-  %iframe{height: "0", src: "//www.googletagmanager.com/ns.html?id=GTM-TFMRKP6", style: "display:none;visibility:hidden", width: "0"}
-/ END Google Tag Manager BODY tag
 .full-page-wrap.smooth-container
   %header
     .container
       %h1.logo
-        %a{href: "http://thekillersmusic.com"}
-          %img.init{alt: "The Killers", src: "http://thekillersmusic.com/wp-content/themes/thekillers-micro/img/logo@1x.png", srcset: "http://thekillersmusic.com/wp-content/themes/thekillers-micro/img/logo@1x.png 1x, http://thekillersmusic.com/wp-content/themes/thekillers-micro/img/logo@2x.png 2x"}/
-          %img.hover{alt: "The Killers", src: "http://thekillersmusic.com/wp-content/themes/thekillers-micro/img/logo-h@1x.png", srcset: "http://thekillersmusic.com/wp-content/themes/thekillers-micro/img/logo-h@1x.png 1x, http://thekillersmusic.com/wp-content/themes/thekillers-micro/img/logo-h@2x.png 2x"}/
-    / /container
-  / /header
   .album-text.mobile
     .container
       %h3
-        %strong Wonderful Wonderful
-        = succeed "Out" do
-          %span |
-    / /container
-  / /anchor-wrap
+        %strong The Sun Three Hups - Black LP
   .page-wrap
     .container
       .bg-img
-        %img.tilt-img{alt: "Image of a shell", "data-tilt" => "", src: "http://thekillersmusic.com/wp-content/uploads/2017/08/shell-4.png"}/
+        = image_tag 'black_lp_image.jpg', alt: 'The Sun Three Hups', class: 'tilt-img', data: { tilt: '' }
         .cta-wrap
-          %a.cta{href: "https://shop.thekillersmusic.com/", target: "_blank"}
-            %img{alt: "", src: "http://thekillersmusic.com/wp-content/themes/thekillers-micro/img/note-sm@1x.png", srcset: "http://thekillersmusic.com/wp-content/themes/thekillers-micro/img/note-sm@1x.png 1x, http://thekillersmusic.com/wp-content/themes/thekillers-micro/img/note-sm@2x.png 2x"}>/
-             
-            Pre-Order Now
           %a.cta{href: "https://www.youtube.com/watch?v=XO7JGfqPB0s&feature=youtu.be", target: "_blank"}
-            %img{alt: "", src: "http://thekillersmusic.com/wp-content/themes/thekillers-micro/img/video-icon@1x.png", srcset: "http://thekillersmusic.com/wp-content/themes/thekillers-micro/img/video-icon@1x.png 1x, http://thekillersmusic.com/wp-content/themes/thekillers-micro/img/video-icon@2x.png 2x"}>/
+            = fa_icon 'youtube-play'
              
-            Watch 'Run for Cover'
+            Смотреть клип 'Multicolor Bus'
       %nav
         %ul
           %li
             %a{href: "https://forms.umusic.com/4931/form/7691", target: "_blank"} Join the Mailing List
           %li
             %a{href: "https://shop.thekillersmusic.com/", target: "_blank"} Visit Official Store
-    / /container
-  / /page-wrap
   .anchor-wrap.desktop
     .container
       .album-text.desktop
         %h3
-          %strong Wonderful Wonderful
-          = succeed "Out" do
-            %span |
+          %strong The Sun Three Hups - Black LP
       .products.multi
         .product
           .product-img
