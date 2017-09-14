@@ -61,6 +61,7 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.5)
+    copyright_mafa (0.1.0)
     erubi (1.6.1)
     erubis (2.7.0)
     execjs (2.7.0)
@@ -199,6 +200,7 @@ DEPENDENCIES
   byebug
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
+  copyright_mafa
   font-awesome-rails
   haml-rails
   jbuilder (~> 2.5)
