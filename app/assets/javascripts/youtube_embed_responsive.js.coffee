@@ -1,4 +1,5 @@
 #= require jquery
+
 $ ->
   $('.youtube_video iframe').each ->
     padding_left = $(this).parents().parents().css('padding-left').replace('px', '')
