@@ -16,6 +16,9 @@ gem 'haml-rails'
 gem 'pg'
 gem 'font-awesome-rails'
 gem 'copyright_mafa'
+gem 'youtube_rails', github: 'luizpicolo/youtube_rails'
+gem 'jquery-rails'
+gem 'jquery-ui-rails'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

@@ -1,3 +1,4 @@
+= javascript_include_tag 'youtube_embed_responsive'
 .full-page-wrap.smooth-container
   %header
     .container
@@ -8,8 +9,8 @@
         %strong The Sun Three Hups - Black LP
   .page-wrap
     .container
-      .bg-img
-        = image_tag 'cd.png', alt: 'The Sun Three Hups', class: 'tilt-img', data: { tilt: '' }
+      .bg-img.youtube_video
+        != YouTubeRails.youtube_embed_url('https://www.youtube.com/watch?v=jVP9AsWvIss', 420, 315, ssl: true)
       %nav
         %ul
           %li
