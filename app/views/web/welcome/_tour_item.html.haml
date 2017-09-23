@@ -1,0 +1,11 @@
+.tour-item
+  .date
+    %h4= date
+  .location
+    %h3
+      %span= place
+      %strong= city
+  - if defined? link
+    .link
+      %a.btn{href: link, target: '_blank'}
+        = text

@@ -41,24 +41,9 @@
       .tour-intro
         %h3 Приходите на наши живые концерты
       .tour-items
-        .tour-item
-          .date
-            %h4 19 сентября 2017
-          .location
-            %h3
-              %span 16 тонн
-              %strong Москва
-          .link
-            %a.btn{href: 'https://radario.ru/events/197542', target: '_blank'} Купить билет
-        .tour-item
-          .date
-            %h4 25 октября 2017
-          .location
-            %h3
-              %span IT Way'17
-              %strong Димитровград
-          .link
-            %a.btn{href: 'http://it-way.pro', target: '_blank'} Узнать больше
+        = render 'tour_item', date: '28 сентября 2017', place: 'Yankee Bar & Grill', city: 'Ульяновск'
+        = render 'tour_item', date: '7 октября 2017', place: 'Records Music Pub', city: 'Ульяновск'
+        = render 'tour_item', date: '25 октября 2017', place: 'IT Way\'17', city: 'Димитровград', link: 'http://it-way.pro', text: 'Узнать подробности'
   %footer
     .container
       %p
