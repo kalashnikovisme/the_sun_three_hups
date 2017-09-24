@@ -65,3 +65,4 @@ cm/roles
 *.rdb
 npm-debug.log
 .idea
+config/application.yml

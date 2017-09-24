@@ -10,3 +10,7 @@ development:
 test:
   <<: *default
   database: the_sun_three_hups_test
+
+production:
+  <<: *default
+  database: the_sun_three_hups_production
