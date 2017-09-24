@@ -26,11 +26,20 @@
       .album-text.desktop
         %h3
           %strong The Sun Three Hups - Black LP
-        %h3
-          = link_to 'https://vk.com/thesunthreehups', class: :social_links, target: :_blank do
-            = fa_icon 'vk 2x'
-          = link_to 'https://www.instagram.com/thesunthreehups/', class: :social_links, target: :_blank do
-            = fa_icon 'instagram 2x'
+      = render 'soundcloud'
+      %br
+      %br
+      %br
+      %h3{ style: 'color: white' }
+        Подпишитесь на нас в социальных сетях
+      %h2{ style: 'color: white !important' }
+        = link_to 'https://vk.com/thesunthreehups', class: :social_links, target: :_blank do
+          = fa_icon 'vk 2x'
+        = link_to 'https://www.instagram.com/thesunthreehups/', class: :social_links, target: :_blank do
+          = fa_icon 'instagram 2x'
+      %br
+      %br
+      %br
       -#.products.multi
         .product
           .product-img
