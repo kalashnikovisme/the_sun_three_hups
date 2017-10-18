@@ -49,16 +49,11 @@
               = image_tag 'black_lp_cd.jpg', class: 'attachment-full size-full wp-post-image', height: 600, sizes: '(max-width: 600px) 100vw 600px'
           %h4 Black LP CD
           %a.btn{href: '#', target: '_blank'} Купить
-      %a.anchor-link{href: "#tour"}
-        %span.txt Даты следующих выступлений
-        = fa_icon 'chevron-down'
   #tour.tour-dates
     .container
       .tour-intro
         %h3 Приходите на наши живые выступления
       .tour-items
-        = render 'tour_item', date: '28 сентября 2017', place: 'Yankee Bar & Grill', city: 'Ульяновск'
-        = render 'tour_item', date: '7 октября 2017', place: 'Records Music Pub', city: 'Ульяновск'
         = render 'tour_item', date: '25 октября 2017', place: 'IT Way\'17', city: 'Димитровград', link: 'http://it-way.pro', text: 'Узнать подробности'
   %footer
     .container
