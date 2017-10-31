@@ -20,6 +20,7 @@ gem 'youtube_rails', github: 'luizpicolo/youtube_rails'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'figaro'
+gem 'unicorn-rails'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
