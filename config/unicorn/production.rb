@@ -1,4 +1,4 @@
-app_path = '/srv/ulmicru'
+app_path = '/srv/the_sun_three_hups'
 working_directory "#{app_path}/current"
 
 worker_processes 1
